@@ -1,62 +1,86 @@
-📦 Grocery Store Management System (SQL Project)
-📘 Overview:-
-This project is a Grocery Store Management Database built using SQL. It manages essential store operations including products, customers, suppliers, employees, orders, and sales. The project focuses on database structure correction, relationship building, and analytical queries to understand store performance.
+📦 Grocery Store Management System — SQL Project
+📘 Overview
 
-🔧 Features Implemented
+This project is a Grocery Store Management Database developed using SQL.
+It manages essential store components such as customers, products, suppliers, categories, employees, orders, and order details.
+The goal of this project is to build a clean, relational database and perform analytical queries to understand store performance and sales behavior.
 
-Organized grocery store tables (Customers, Products, Orders, etc.)
+🔧 Features
 
-Added Primary Keys & Foreign Keys for relational integrity
+Designed and structured grocery store database
 
-Cleaned and standardized data types (IDs, prices, dates)
+Added Primary Keys and Foreign Keys for proper relationships
 
-Fixed missing relationships between tables
+Cleaned and standardized data (IDs, dates, prices)
 
-Implemented advanced SQL queries for business insights
+Performed analytical queries for:
 
-📊 Analysis Performed
-Customer Analysis
+Customer insights
 
-Active customers
+Product performance
 
-Top customers by purchase value
+Sales trends
 
-Product Insights
+Supplier contribution
+
+Employee performance
+
+🗂️ ER Diagram
+<img width="1107" height="618" alt="image" src="https://github.com/user-attachments/assets/7d0518cf-0979-41e7-91e6-3d845b45508d" />
+
+📊 Analysis Covered
+Customers
+
+Total number of customers
+
+Top customers by spending
+
+Order frequency
+
+Products
+
+Best-selling products
 
 Product count by category
 
-Best-selling and most profitable items
+Highest revenue-generating items
+Sales
 
-Sales Insights
+Total sales
 
-Total sales and order count
+Daily and monthly trends
 
-Daily & monthly sales trends
+Revenue comparison
 
-Supplier & Employee Analysis
+Suppliers & Employees
 
-Supplier contribution to revenue
+Supplier performance
+
+Employee-wise sales handling
 
 🛠️ Tools Used
 
 MySQL / SQL
 
-Joins, Grouping, Aggregations
+Joins, Aggregations, Grouping
 
-Primary & Foreign Key Constraints
+Primary & Foreign Keys
 
+Data Cleaning
 Relational Database Design
 
 ✔️ Outcomes
 
-A fully structured and normalized grocery store database
+A clean and properly structured grocery store database
 
-Clear relationships between all store entities
+Fully connected tables using PK–FK relationships
 
-Insightful SQL queries for understanding store operations
+Accurate and meaningful insights from SQL queries
 
-Reliable and accurate data ready for analysis or application development
+Real-world understanding of grocery store operations
 
+📁 Repository Includes
 
-Employee order handling & performance
+sql project.sql — Complete schema setup and analysis queries
 
+README.md — Project description and ER diagram
